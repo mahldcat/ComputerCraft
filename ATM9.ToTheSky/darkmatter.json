@@ -1,6 +1,6 @@
 {
   "inputChest": "minecraft:chest_1",
-  "outputAltar": "summoningrituals:altar_1",
+  "outputAltar": "minecraft:chest_2",
   "requiredItems": [
     "minecraft:netherite_scrap",
     "allthemodium:allthemodium_ingot",
