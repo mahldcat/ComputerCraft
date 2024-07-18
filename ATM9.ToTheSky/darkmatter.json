@@ -1,0 +1,11 @@
+{
+  "inputChest": "minecraft:chest_1",
+  "outputAltar": "summoningrituals:altar_1",
+  "requiredItems": [
+    "minecraft:netherite_scrap",
+    "allthemodium:allthemodium_ingot",
+    "alltheores:enderium_ingot",
+    "megacells:sky_steel_ingot",
+    "projecte:aeternalis_fuel_block"
+  ]
+}
