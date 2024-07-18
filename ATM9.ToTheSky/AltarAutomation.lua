@@ -1,6 +1,3 @@
--- Load the JSON library
-os.loadAPI("json")
-
 -- Function to read the configuration file
 local function readConfig(filename)
     local file = fs.open(filename, "r")
@@ -9,13 +6,13 @@ local function readConfig(filename)
     end
     local content = file.readAll()
     file.close()
-    return json.decode(content)
+    return textutils.unserializeJSON(content)
 end
 
 -- Get the configuration file name from the command-line arguments
 local args = { ... }
 if #args < 1 then
-    error("Usage: transfer_items <config_file>")
+    error("Usage: altar <config_file>")
 end
 local configFile = args[1]
 
